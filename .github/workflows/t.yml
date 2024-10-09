@@ -8,7 +8,7 @@ jobs:
       steps:
       -  run: date
      windows:
-      needs:  [ubuntu]
+      needs:  ubuntu
       runs-on: windows-latests
       steps:
       -  run: date

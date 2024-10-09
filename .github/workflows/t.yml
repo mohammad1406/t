@@ -1,6 +1,6 @@
 name: t
 on: push
-  jobs:
+jobs:
     ubuntu:
     runs-on: ubuntu-latests
     steps:

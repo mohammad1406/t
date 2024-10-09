@@ -7,10 +7,3 @@ jobs:
     runs-on: ubuntu-latests
     steps:
     -  run: date
-   windows:
-     needs:  ubuntu
-     runs-on: windows-latests
-     steps:
-      -  run: date
-  
-    

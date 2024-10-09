@@ -6,7 +6,6 @@ jobs:
     steps:
     -  run: date
 
-   jobs:
     windows:
     needs:  ubuntu
     runs-on: windows-latests

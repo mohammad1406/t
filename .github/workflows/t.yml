@@ -1,7 +1,5 @@
 name: t
-
 on: push
-
 jobs:
   ubuntu:
     runs-on: ubuntu-latests
